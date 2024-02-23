@@ -1,6 +1,6 @@
 # import sys
-# sys.stdin = open("cypher_code.txt")
-#
+# sys.stdin = open("scan_cypher_code.txt")
+
 # for tc in range(1, int(input())+1):
 #     N, M = map(int, input().split())
 #     l = 7
@@ -40,13 +40,22 @@
 #         else:
 #             print(f"#{tc} 0")
 
-
-
-# ver 2: using rstrip('0')
-
-
-
-
+# string = "E3F1F8038E3FFC0FC0E3F00703F038038FC71FFE00"
+# num = int(string, 16)
+# print(bin(num))
+# print()
+# string2 = '1DB176C588D26EC'
+# num2 = int(string2, 16)
+# print(str(num2))
+# print(str(bin(num2)))
+# print(len(str(bin(num2))))
+#
+# hex_string = "1DB176C588D26EC"
+# integer_value = int(hex_string, 16)
+# print(integer_value)
+#
+s = "1101101101101110101110110001011000100011011011101100"
+print(len(s))
 
 
 
